@@ -3,12 +3,12 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:local="clr-namespace:WpfApplication1"
         xmlns:dxsch="http://schemas.devexpress.com/winfx/2008/xaml/scheduler"
-        xmlns:dxschd ="clr-namespace:DevExpress.Xpf.Scheduler.Drawing;assembly=DevExpress.Xpf.Scheduler.v10.2"
+        xmlns:dxschd="clr-namespace:DevExpress.Xpf.Scheduler.Drawing;assembly=DevExpress.Xpf.Scheduler.v13.1"
         Title="MainWindow" Height="350" Width="525">
 <Window.Resources>
     <Style x:Key="DateHeaderStyle" TargetType="{x:Type dxschd:VisualDateHeader}">
         <Style.Resources>
-            <local:DateTimeToShortDateStringConverter x:Key="DateTimeConverter"/>
+            <local:DateTimeToShortDateStringConverter x:Key="DateTimeConverter" />
         </Style.Resources>
         <Setter Property="Template">
             <Setter.Value>
@@ -31,8 +31,7 @@
             <Setter.Value>
                 <DataTemplate>
                     <Grid>
-                        <TextBlock 
-                            x:Name="text"
+                        <TextBlock x:Name="text"
                             Foreground="White"
                             TextAlignment="Center" VerticalAlignment="Center"
                             FontFamily="Verdana" FontSize="12"
