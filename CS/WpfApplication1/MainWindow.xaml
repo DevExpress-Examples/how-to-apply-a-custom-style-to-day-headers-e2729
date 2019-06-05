@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:local="clr-namespace:WpfApplication1"
         xmlns:dxsch="http://schemas.devexpress.com/winfx/2008/xaml/scheduler"
-        xmlns:dxschd="clr-namespace:DevExpress.Xpf.Scheduler.Drawing;assembly=DevExpress.Xpf.Scheduler.v13.1"
+        xmlns:dxschd="clr-namespace:DevExpress.Xpf.Scheduler.Drawing;assembly=DevExpress.Xpf.Scheduler.v11.2"
         Title="MainWindow" Height="350" Width="525">
 <Window.Resources>
     <Style x:Key="DateHeaderStyle" TargetType="{x:Type dxschd:VisualDateHeader}">
